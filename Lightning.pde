@@ -22,12 +22,13 @@ int endY = 150;
 void setup()
 {
   size(300,300);
+  //black
   background(0,0,0);
   strokeWeight(2);
   
 }
-void draw()
-{
+void draw(){
+  stroke((int)(Math.random()* 256));
 
 }
 void mousePressed()
