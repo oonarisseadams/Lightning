@@ -5,14 +5,14 @@
 //void draw() needs to do two things:
 -set the stroke()color of the lightning bolt to some random value using Math.random()
 -a while loop that repeats the following until the endX is off the screen:
-*/
     set endX to startX plus a random integer from 0 to 9
     set endY to startY plus a random integer from -9 to 9
     draw a line() with endpoints startX,startY,endX,endY
     set startX equal to endX
     set startY equal to endY
-
 void mousePressed() needs to set startX,startY,endX,endY back to their original values.
+*/
+
 int startX = 0;
 int startY = 150;
 int endX = 0;
